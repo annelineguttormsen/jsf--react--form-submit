@@ -1,4 +1,4 @@
-# React routing
+# React form submit event
 
 Add the Contact component to the navigation.  Then update the component to handle the form submit event.  When hnadling the event, simply log out various information about that form that was submitted.  In the example look in the console to see this.
 
