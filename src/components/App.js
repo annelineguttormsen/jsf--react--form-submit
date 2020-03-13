@@ -10,7 +10,6 @@ import {
 import Container from "react-bootstrap/Container";
 import Home from "./Home";
 import AboutUs from "./AboutUs";
-import Contact from "./Contact";
 
 function App() {
     return (
@@ -28,9 +27,6 @@ function App() {
                         <NavLink to="/aboutus" className="nav-link">
                             About
                         </NavLink>
-                        <NavLink to="/contact" className="nav-link">
-                            Contact
-                        </NavLink>
                     </Nav>
                 </Navbar.Collapse>
             </Navbar>
@@ -39,7 +35,6 @@ function App() {
                 <Switch>
                     <Route path="/" exact component={Home} />
                     <Route path="/aboutus" component={AboutUs} />
-                    <Route path="/contact" component={Contact} />
                 </Switch>
             </Container>
         </Router>
