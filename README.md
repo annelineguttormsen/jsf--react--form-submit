@@ -4,7 +4,7 @@ Add the Contact component to the navigation.  Then update the component to handl
 
 ## Example
 
-[The example is here](https://jsf-react-routing.now.sh).
+[The example is here](https://jsf-react-form-submit.now.sh).
 
 # Project Setup
 
